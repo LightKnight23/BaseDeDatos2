@@ -5,6 +5,7 @@
 # ______________________________
 # Taller de Pre-Parcial
 
+```sql
 CREATE SCHEMA `ElectronicWallet`;
 USE `ElectronicWallet`;
 CREATE TABLE `User` (
@@ -72,8 +73,8 @@ VALUES (1, 1, 3, 'pending', NOW(), 'loan', 500.00),
        (2, 2, 4, 'approved', NOW(), 'transfer', 200.00),
        (3, 3, 5, 'rejected', NOW(), 'loan', 1000);
 
-
+```
 # Diagrama
-# ____________________________________________________________________________________
+# _______________________________________________________
 
 <img width="985" alt="Screenshot 2024-02-22 at 7 18 50 PM" src="https://github.com/LightKnight23/BaseDeDatos2/assets/42986343/9baf1ce9-2514-4343-be77-f7305c71ece8">
