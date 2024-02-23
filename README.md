@@ -1,8 +1,8 @@
-# BaseDeDatos2
+# Base De Datos 2
 # Estudiantes: 
-# ______________________________
-# Alejandro Moreno Eyvar Garcia
-# ______________________________
+# ________________________________
+# Alejandro Moreno, Eyvar Garcia
+# ________________________________
 # Taller de Pre-Parcial
 
 ```sql
