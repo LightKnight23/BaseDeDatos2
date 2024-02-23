@@ -146,6 +146,15 @@ INSERT INTO Juzgado (Nombre, Direccion, Telefono) VALUES
     ('Juzgado 1ro', '111 Calle Legalidad, Metrópolis Legal', '+333 444 5555'),
     ('Juzgado 3ro', '333 Plaza de la Justicia, Villa Jurídica', '+444 555 6666'),
     ('Alcaldía de Panamá', '777 Calle Municipal, Pueblo Gubernamental', '+555 666 7777');
+# Crear nuevo expediente
+INSERT INTO Expedientes (IDExpediente, IDAseguradora, IDUsuario, FechaInicio, Descripcion)
+VALUES
+    (1, 1, 1, '2024-02-23', 'Nuevo expediente para Conductor');
+
+# Crear número de caso y tipo de proceso
+INSERT INTO Reportes (IDExpediente, FechaReporte, Descripcion)
+VALUES
+    (1, '2024-02-23', 'Conductor: Nombre del conductor, Aseguradora: Nombre de la aseguradora, Número de Caso: 12345, Tipo de Proceso: Judicial');
 ```
 
 # Diagrama
